@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+/* This is from google fonts */
+
+* {
+ 
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("images/IMG2.jpeg");
+  
+}
+#content{
+  background-color:rgba( 0, 0, 0, 50%);
+}
+img {
+  max-width: 100%;
+}
+
+/*navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0.);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: orange;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: red;
+  color:black
+  box-shadow:0 0 10px black;
+}
+
+/* Home section */
+.home
+  align-items: center;
+  color: white;
+ 
+ 
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  padding: 20px;
+}
+
+.heading {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: white;
+  outline: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: white;
+  box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
+  font-weight: bold;
+}
+
+/* About section */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: ;
+ 
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: black;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-me-text {
+  max-width: 500px;
+}
+
+/*skills section*/
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  color: black;
+}
+
+.portfolio-text {
+  list-style: none;
+  font-size: 20px;
+}
+
+/* skills  section */
+#skills {
+  list-style:text-align center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+ 
+  
+}
+
+.skills-link a {
+  
+}
+
+/* contact section */
+#contact {
+  text-align: center;
+  color: black;
